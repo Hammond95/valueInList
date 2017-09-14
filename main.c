@@ -29,9 +29,8 @@ int main()
 }
 
 /* ****************************************************
- * Author:    Martin De Luca
+ * Author:    Martin
  * Date:      14/09/2017
- * Version:   2.0
  * ***************************************************/
 int valueInListStr(char *value, char *ValueList)
 {
@@ -62,11 +61,8 @@ int valueInListStr(char *value, char *ValueList)
     return 0;
 }
 
-/* ****************************************************
- * Author:    Martin De Luca
- * Date:      14/09/2017
- * Version:   2.0
- * ***************************************************/
+/* ****************************************************/
+
 int valueNotInListStr(char *value, char *ValueList)
 {
     if(value == NULL || ValueList == NULL)
@@ -96,11 +92,8 @@ int valueNotInListStr(char *value, char *ValueList)
     return 1;
 }
 
-/* ****************************************************
- * Author:    Martin De Luca
- * Date:      14/09/2017
- * Version:   2.0
- * ***************************************************/
+/* ****************************************************/
+
 int valueInListInt(long long int value, char *ValueList)
 {
     if(ValueList == NULL)
@@ -132,11 +125,8 @@ int valueInListInt(long long int value, char *ValueList)
     return 0;
 }
 
-/* ****************************************************
- * Author:    Martin De Luca
- * Date:      14/09/2017
- * Version:   2.0
- * ***************************************************/
+/* ****************************************************/
+
 int valueNotInListInt(long long int value, char *ValueList)
 {
     if(ValueList == NULL)
