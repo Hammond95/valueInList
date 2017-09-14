@@ -1,0 +1,7 @@
+These function were made to fit in an ETL software called Datastage (by IBM); So i didn't developed these in a C-like view.
+
+This code was lately compiled with the same compiler used in Datastage (v. 11.5.2):
+
+g++ -c -O -fPIC -Wno-deprecated -m64 -mtune=generic -mcmodel=small
+
+
