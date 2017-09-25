@@ -3,8 +3,8 @@
 #include <string.h>
 #include <inttypes.h>
 
-int valueInList(char*,char*);
-int valueNotInList(char*,char*);
+int valueInListStr(char*,char*);
+int valueNotInListStr(char*,char*);
 int valueInListInt(long long int , char*);
 int valueNotInListInt(long long int , char*);
 
